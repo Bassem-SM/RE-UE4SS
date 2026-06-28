@@ -178,7 +178,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          token: ${{ secrets.UEPSEUDO_PAT }}
+          token: token: ${{ github.token }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
